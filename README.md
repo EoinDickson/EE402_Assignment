@@ -27,3 +27,9 @@ In this application each robot application should run on the desktop device. The
 - The client should send an update every 10 seconds, regardless of whether the robot is moved or not.
 - The client should display the current connection status and the last time that a message was successfully sent to the server.
 - Add a novel feature of your own design.
+
+## Create the Java Run Files
+
+Create list of sources use this command "find . -type f -name "*.java" > Assignment2/Misc/sources.txt".
+
+Create runnable java files using this command "javac -d Assignment2/Misc/out/ @Assignment2/Misc/sources.txt".

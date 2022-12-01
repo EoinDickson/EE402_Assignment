@@ -5,10 +5,11 @@
 // package ee402;
 package Assignment2;
 
-import java.net.*;
-import java.util.Queue;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.net.Socket;
 import java.util.Vector;
-import java.io.*;
 
 public class ThreadedConnectionHandler extends Thread {
     private Socket clientSocket = null; // Client socket object

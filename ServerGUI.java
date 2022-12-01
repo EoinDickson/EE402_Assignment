@@ -1,18 +1,21 @@
 package Assignment2;
 
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
-import java.util.Vector;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
+
+import javax.swing.BorderFactory;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
-import javax.swing.BorderFactory;
-import javax.swing.JFrame;
-import Assignment2.ServerUIComponents.*;
 import javax.swing.event.ChangeListener;
+
+import Assignment2.ServerUIComponents.*;
 
 @SuppressWarnings("serial")
 public class ServerGUI extends JFrame implements WindowListener, ChangeListener {
